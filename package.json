@@ -1,0 +1,16 @@
+{
+	"name":"i18n-json-excel-conversion",
+    "version": "1.0.0",
+	"devDependencies": {
+		"@types/lodash": "^4.17.16",
+		"@types/node": "^22.14.1",
+		"lodash": "^4.17.21",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3",
+		"xlsx": "^0.18.5"
+	},
+	"scripts": {
+		"build:excel": "ts-node convert.ts --to-excel",
+		"build:js": "ts-node convert.ts --to-js"
+	}
+}
